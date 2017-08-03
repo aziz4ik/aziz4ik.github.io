@@ -1,0 +1,641 @@
+  <!--Slider Begin -->
+    <div data-slider-id="rlcuvj">
+
+    </div>
+    <!-- End Slider -->
+
+    <div class="container">
+        <div class="row" id="main-boxes">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-3 resize  green top-side boxes ">
+                <a href="#">
+                    <img src="images/first-box-logo.png" style="float: right">
+                    <h3>Psixolog xizmati</h3>
+                    <p>Metodik ma'lumotlar, ishlanmalar va mashqalar</p>
+                </a>
+
+
+
+            </div>
+
+
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-3  orange top-side boxes  ">
+
+                <a href="#">
+                    <img src="images/second-box-logo.png" style="float: right">
+                    <h3>Ijodkor jamoa</h3>
+                    <p>Maktab hayoti va darsdan tashqari mehnat </p>
+                </a>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-3  light-red top-side boxes ">
+                <a href="#">
+                    <img src="images/third-box-logo.png" style="float: right">
+                    <h3>Foto hayot</h3>
+                    <p>Fotolavhalarda aks etgan ijodga to'la hayot!</p>
+                </a>
+
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-3 green bottom-side boxes ">
+                <a href="#">
+                    <img src="images/fourth-box-logo.png" style="float: right">
+                    <h3>Bilimlar bellashuvi</h3>
+                    <p>Iqtidomi aniqlash, qobilyatni  ruyobga  chiqarish burchimizdir!</p>
+                </a>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-3  orange bottom-side  boxes">
+                <a href="#">
+                    <img src="images/fifth-box-logo.png" style="float: right">
+                    <h3>Namunali safdoshlar</h3>
+                    <p>Yilning eng yaxshi o`qituvchilari  - faoliyati va natijalari.</p>
+                </a>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-3  light-red bottom-side boxes ">
+                <a href="#">
+                    <img src="images/sixth-box-logo.png" style="float: right">
+                    <h3>Kadrlar <br> salohiyati</h3>
+                    <p>Mahorak va malaka bilim <br>tarozisida o'lchanur </p>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <aside>
+                <div id="content-left">
+                    <div class="col-xs-10 col-md-4 col-lg-4 main-menu-left">
+                        <div class="col-xs-6 col-md-12 column">
+                            <img src="images/icon-laptop.png" class="laptop pull-left">
+                            <h3>
+                                <a href="#">Yangilik va e'lonlar</a>
+                            </h3>
+                            <p>Maktab hayotidagi son'ggi yangilik va e'lonlar, aktual ma'ulomotlar bo'limi</p>
+                            <hr class="double">
+                        </div>
+                        <div class="col-xs-6 col-md-12 column">
+                            <img src="images/icon-group.png" class="laptop pull-left">
+                            <h3>
+                                <a href="#">O`qituvchilarga</a>
+                            </h3>
+                            <p>O`quvchi tarbiyasi va bilim olishiga doir kompleks ma`lumotlar bazasi.</p>
+                            <hr class="double">
+                        </div>
+                        <div class="col-xs-6 col-md-12 column">
+                            <img src="images/icon-group.png" class="laptop pull-left">
+                            <h3>
+                                <a href="#">O`quvchilarga</a>
+                            </h3>
+                            <p>Chuqur bilim olishda lozim materiallar va ishlanmalar jamlanmasi.</p>
+                            <hr class="double">
+                        </div>
+                        <div class="col-xs-6 col-md-12 column">
+                            <img src="images/icon-film.png" class="laptop pull-left">
+                            <h3>
+                                <a href="#">Video va TV</a>
+                            </h3>
+                            <p>Videolavhalar kollektsiyasi: Maktab tadbirlari, TV Biz haqimizda TV.</p>
+                            <hr class="double">
+                        </div>
+                        <div class="col-xs-6 col-md-12 column">
+                            <img src="images/icon-book.png" class="laptop pull-left">
+                            <h3>
+                                <a href="#">Elektron kutubxona</a>
+                            </h3>
+                            <p>Milliy ta`lim kitoblari bazasi, o`quv materiallari, ishlanmalar, prezentatsiyalar hujjatlar arxivi.</p>
+                            <hr class="double">
+                        </div>
+                        <div class="col-xs-6 col-md-12 column">
+                            <img src="images/icon-group.png" class="laptop pull-left">
+                            <h3>
+                                <a href="#">Onlayn darslar</a>
+                            </h3>
+                            <p>Intensiv ta`lim video kurslari va o`quv videomateriallari.</p>
+                            <hr class="double">
+                        </div>
+                    </div>
+                </div>
+                <div id="content-bottom">
+                    <h3>MILLLIY HAVOLALAR</h3>
+                    <ul class="hyper-links">
+                        <li><a href="http://www.gov.uz" target="_blank">O`zbekiston R. Hukumat portali</a></li>
+                        <li><a href="http://www.press.service.uz" target="_blank">O`zbekiston R. Prezident matbuot xizmati</a></li>
+                        <li><a href="http://www.parliament.gov.uz" target="_blank">O`zbekiston R. Oliy Majlisi</a></li>
+                        <li><a href="http://www.uz.edu.uz" target="_blank">Xalq ta`limi Vazirligi</a></li>
+                        <li><a href="http://www.edu.uz" target="_blank">Oliy va O`rta Maxsus Ta`lim Vazirligi</a></li>
+                        <li><a href="http://www.my.gov.uz" target="_blank">Interaktiv Davlat xizmatlari portali</a></li>
+                        <li><a href="http://www.dtm.uz" target="_blank">O`zbekiston R. Davlat Test Markazi</a></li>
+                        <li><a href="http://www.tashkent.uz" target="_blank">Toshkent shahar portali</a></li>
+                        <li><a href="http://www.ziyonet.uz" target="_blank">O`zbekiston Ta`lim portali</a></li>
+                        <li><a href="http://www.xt.uzedu.uz" target="_blank">XTVning Interaktiv xizmatlar portali</a></li>
+                        <li><a href="http://www.uz" target="_blank">O`zbekiston Milliy veb-katalogi</a></li>
+                        <li><a href="http://www.lex.uz/ru/main.uz" target="_blank">O`zbekiston R. Qonun hujjatlari bazasi</a></li>
+                        <li><a href="http://www.kitob.uz" target="_blank">Bolalar kutubxonasi</a></li>
+                        <li><a href="http://www.geografiya.uz" target="_blank">O`zbekiston geografiya portali</a></li>
+                    </ul>
+
+                </div>
+            </aside>
+
+            <section class="pull-right">
+                <div class="col-right">
+                    <h2>
+                        Xush kelibsiz azizlar!
+                    </h2>
+                    <p>Toshkent shahar 9-davlat ixtisoslashtirilgan umumta`lim maktabi uzluksiz ta'lim tizimining asosiy bo'g'ini bo'lib, u o'quvchi yoshlarga davlat ta'lim standartlari asosida fan asoslaridan umumiy o'rta ma'lumot beruvchi kunduzgi majburiy ta'limni ayrim fanlarni chuqur o'qitish va ixtisoslashtirilgan ta'lim bilan qo'shib olib boruvchi ta'lim muassasasidir.</p>
+                    <hr>
+                    <div class="strip-lessons">
+                        <div class="row">
+                            <div class="image-sourced pull-left">
+                                <img src="images/edu-logo-1.png">
+                            </div>
+                            <div class="about-news pull-right">
+                                <h4>
+                                    <a href="#">Yilning eng yaxshi fan o'qituvchisi 2017</a>
+                                </h4>
+                                <p>"Yilning eng yaxshi fan o`qituvchisi" ko`rik-tanlovi umumta'lim <br> muassasalarining eng ilg'or, izlanuvchan, tashabbuskor o'qituvchilarini <br> aniqlash, ularning qobiliyati va mahoratini yuzaga</p>
+                                <ul class="date-lessons" style="position: relative;left: -15px;">
+                                    <li><i class="fa fa-clock-o"></i>Sana: 8-04-2017, 17:58</li>
+                                    <li><i class="fa fa-eye"></i>Tashriflar 66</li>
+                                    <li><i class="fa fa-arrow-circle-right"></i><a href="#" style="font-family: monospace;">Batafsil</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="strip-lessons">
+                        <div class="row">
+                            <div class="image-sourced pull-left">
+                                <img src="images/edu-logo-1.png">
+                            </div>
+                            <div class="about-news pull-right">
+                                <h4>
+                                    <a href="#">Yilning eng yaxshi fan o'qituvchisi 2017</a>
+                                </h4>
+                                <p>"Yilning eng yaxshi fan o`qituvchisi" ko`rik-tanlovi umumta'lim <br> muassasalarining eng ilg'or, izlanuvchan, tashabbuskor o'qituvchilarini <br> aniqlash, ularning qobiliyati va mahoratini yuzaga</p>
+                                <ul class="date-lessons" style="position: relative;left: -15px;">
+                                    <li><i class="fa fa-clock-o"></i>Sana: 8-04-2017, 17:58</li>
+                                    <li><i class="fa fa-eye"></i>Tashriflar 66</li>
+                                    <li><i class="fa fa-arrow-circle-right"></i><a href="#" style="font-family: monospace;">Batafsil</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="strip-lessons">
+                        <div class="row">
+                            <div class="image-sourced pull-left">
+                                <img src="images/edu-logo-1.png">
+                            </div>
+                            <div class="about-news pull-right">
+                                <h4>
+                                    <a href="#">Yilning eng yaxshi fan o'qituvchisi 2017</a>
+                                </h4>
+                                <p>"Yilning eng yaxshi fan o`qituvchisi" ko`rik-tanlovi umumta'lim <br> muassasalarining eng ilg'or, izlanuvchan, tashabbuskor o'qituvchilarini <br> aniqlash, ularning qobiliyati va mahoratini yuzaga</p>
+                                <ul class="date-lessons" style="position: relative;left: -15px;">
+                                    <li><i class="fa fa-clock-o"></i>Sana: 8-04-2017, 17:58</li>
+                                    <li><i class="fa fa-eye"></i>Tashriflar 66</li>
+                                    <li><i class="fa fa-arrow-circle-right"></i><a href="#" style="font-family: monospace;">Batafsil</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="strip-lessons">
+                        <div class="row">
+                            <div class="image-sourced pull-left">
+                                <img src="images/edu-logo-1.png">
+                            </div>
+                            <div class="about-news pull-right">
+                                <h4>
+                                    <a href="#">Yilning eng yaxshi fan o'qituvchisi 2017</a>
+                                </h4>
+                                <p>"Yilning eng yaxshi fan o`qituvchisi" ko`rik-tanlovi umumta'lim <br> muassasalarining eng ilg'or, izlanuvchan, tashabbuskor o'qituvchilarini <br> aniqlash, ularning qobiliyati va mahoratini yuzaga</p>
+                                <ul class="date-lessons" style="position: relative;left: -15px;">
+                                    <li><i class="fa fa-clock-o"></i>Sana: 8-04-2017, 17:58</li>
+                                    <li><i class="fa fa-eye"></i>Tashriflar 66</li>
+                                    <li><i class="fa fa-arrow-circle-right"></i><a href="#" style="font-family: monospace;">Batafsil</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="strip-lessons">
+                        <div class="row">
+                            <div class="image-sourced pull-left">
+                                <img src="images/edu-logo-1.png">
+                            </div>
+                            <div class="about-news pull-right">
+                                <h4>
+                                    <a href="#">Yilning eng yaxshi fan o'qituvchisi 2017</a>
+                                </h4>
+                                <p>"Yilning eng yaxshi fan o`qituvchisi" ko`rik-tanlovi umumta'lim <br> muassasalarining eng ilg'or, izlanuvchan, tashabbuskor o'qituvchilarini <br> aniqlash, ularning qobiliyati va mahoratini yuzaga</p>
+                                <ul class="date-lessons" style="position: relative;left: -15px;">
+                                    <li><i class="fa fa-clock-o"></i>Sana: 8-04-2017, 17:58</li>
+                                    <li><i class="fa fa-eye"></i>Tashriflar 66</li>
+                                    <li><i class="fa fa-arrow-circle-right"></i><a href="#" style="font-family: monospace;">Batafsil</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="strip-lessons">
+                        <div class="row">
+                            <div class="image-sourced pull-left">
+                                <img src="images/edu-logo-1.png">
+                            </div>
+                            <div class="about-news pull-right">
+                                <h4>
+                                    <a href="#">Yilning eng yaxshi fan o'qituvchisi 2017</a>
+                                </h4>
+                                <p>"Yilning eng yaxshi fan o`qituvchisi" ko`rik-tanlovi umumta'lim <br> muassasalarining eng ilg'or, izlanuvchan, tashabbuskor o'qituvchilarini <br> aniqlash, ularning qobiliyati va mahoratini yuzaga</p>
+                                <ul class="date-lessons" style="position: relative;left: -15px;">
+                                    <li><i class="fa fa-clock-o"></i>Sana: 8-04-2017, 17:58</li>
+                                    <li><i class="fa fa-eye"></i>Tashriflar 66</li>
+                                    <li><i class="fa fa-arrow-circle-right"></i><a href="#" style="font-family: monospace;">Batafsil</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+    </div>
+    <!--
+    =========== FOOTER =============
+    -->
+    <div class="footer">
+
+
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-3 col-md-2 col-lg-2">
+                    <div>
+                        <img src="images/logo-footer.png" alt="" class="logo-footer">
+                        <p style="display: table;margin: 10px 0 0 0; color: #C8C8C8; text-align-last: center"> Toshkent shahar <br> 9-umumiy o'rta <br> ta'lim maktabi</p>
+                    </div>
+
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-3 col-lg-4" >
+                    <h4>MANZIL VA ALOQA</h4>
+                    <ul class="address">
+                        <li><i class="fa fa-home"></i>Toshkent shahar, Amir Temur ko'chasi</li>
+                        <li><i class="fa fa-phone"></i>Telefon: (+99879) 224 01 21</li>
+                        <li><i class="fa fa-print"></i>Faks: (0436) 224 01 21</li>
+                        <li><i class="fa fa-envelope"></i>Email: info@9-maktab.uz</li>
+                        <li><i class="fa fa-user"></i>Saytni yuritish bo`yicha mas`ul: Alimuhamedova U</li>
+                    </ul>
+                </div>
+                <div class="col-xs-11 col-sm-4 col-md-3 col-lg-3" style="font-family: monospace" >
+                    <h4 style="margin-left: -18px">TEZKOR MENYU</h4>
+                    <ul class="address" style="list-style-type: disc">
+                        <li><a href="#">Veb-sayt umumlashgan statistikasi</a></li>
+                        <li><a href="#">Veb-sayt xaritasi</a></li>
+                        <li><a href="#">RSS</a></li>
+                        <li><a href="#">Biz bilan bog`lanish</a></li>
+                        <li><a href="#">Veb-saytning mobil ko`rinishi</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    background: #0099cc -webkit-linear-gradient(top,rgba(255,255,255,.2) 0%,rgba(0,0,0,.2) 100%);
+
+
+
+
+         <div class="drop-down-container">
+                             <div class="row">
+                                 <div class="col-lg-4 col-md-5 col-sm-6 col-xs-12 left " style="height: 490px;">
+                                     <h4 style="color: white">Elektron kutubxona</h4>
+                                     <ul class="list-menu">
+                                         <li><a href="#">Matematika</a></li>
+                                         <li><a href="#">Informatika</a></li>
+                                         <li><a href="#">Ingliz tili</a></li>
+                                         <li><a href="#">Rus tili</a></li>
+                                         <li><a href="#">Biologiya va zoologiya</a></li>
+                                         <li><a href="#">Fizika</a></li>
+                                         <li><a href="#">Kimyo</a></li>
+                                         <li><a href="#">Geografiya</a></li>
+                                         <li><a href="#">Ona tili va adabiyot</a></li>
+                                         <li><a href="#">Tarix</a></li>
+                                         <li><a href="#">Huquq va ma'naviyat asoslari</a></li>
+                                         <li><a href="#">Boshlang'ish ta'lim</a></li>
+                                         <li><a href="#">Iqtisod</a></li>
+                                         <li><a href="#">Jismoniy tarbiya</a></li>
+                                         <li><a href="#">Musiqa</a></li>
+                                         <li><a href="#">Mehnat ta'limi</a></li>
+                                         <li><a href="#">Chizmachilik va ta'sviriy sa'nat</a></li>
+                                     </ul>
+                                     <p>
+                                         <a href="#" class="bottom-button">
+                                             Barcha darsliklar
+                                         </a>
+                                     </p>
+                                 </div>
+                                 <div class="col-md-8 col-sm-8 col-xs-12 right" style="height: 266px;">
+                                     <div class="row">
+                                         <div class="col-md-4 col-sm-6"></div>
+                                         <div class="col-md-4 col-sm-6"></div>
+                                         <div class="col-md-4 col-sm-6"></div>
+
+                                     </div>
+                                     <div class="row">
+                                         <div class="col-md-4 col-sm-6"></div>
+                                         <div class="col-md-4 col-sm-6"></div>
+                                         <div class="col-md-4 col-sm-6"></div>
+                                     </div>
+                                 </div>
+                             </div>
+                         </div>
+
+
+
+
+                         <!--==== BOXES===-->
+                             <div class="container">
+                                 <div class="row" id="main-boxes">
+                                     <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 resize  green top-side boxes ">
+                                         <a href="#">
+                                             <img src="images/first-box-logo.png" style="float: right">
+                                             <h3>Psixolog xizmati</h3>
+                                             <p>Metodik ma'lumotlar, ishlanmalar va mashqalar</p>
+                                         </a>
+
+
+
+                                     </div>
+
+
+                                     <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12  orange top-side boxes  ">
+
+                                         <a href="#">
+                                             <img src="images/second-box-logo.png" style="float: right">
+                                             <h3>Ijodkor jamoa</h3>
+                                             <p>Maktab hayoti va darsdan tashqari mehnat </p>
+                                         </a>
+                                     </div>
+                                     <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12  light-red top-side boxes ">
+                                         <a href="#">
+                                             <img src="images/third-box-logo.png" style="float: right">
+                                             <h3>Foto hayot</h3>
+                                             <p>Fotolavhalarda aks etgan ijodga to'la hayot!</p>
+                                         </a>
+
+                                     </div>
+                                     <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 green bottom-side boxes ">
+                                         <a href="#">
+                                             <img src="images/fourth-box-logo.png" style="float: right">
+                                             <h3>Bilimlar bellashuvi</h3>
+                                             <p>Iqtidomi aniqlash, qobilyatni  ruyobga  chiqarish burchimizdir!</p>
+                                         </a>
+                                     </div>
+                                     <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12  orange bottom-side  boxes">
+                                         <a href="#">
+                                             <img src="images/fifth-box-logo.png" style="float: right">
+                                             <h3>Namunali safdoshlar</h3>
+                                             <p>Yilning eng yaxshi o`qituvchilari  - faoliyati va natijalari.</p>
+                                         </a>
+                                     </div>
+                                     <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12  light-red bottom-side boxes ">
+                                         <a href="#">
+                                             <img src="images/sixth-box-logo.png" style="float: right">
+                                             <h3>Kadrlar  salohiyati</h3>
+                                             <p>Mahorak va malaka bilim tarozisida o'lchanur </p>
+                                         </a>
+                                     </div>
+                                 </div>
+                             </div> <!--=====///BOXES///====-->
+
+                            <!--***CONTENT*** -->
+                             <div class="container" style="text-align: left">
+                                 <div class="row">
+                                     <aside>
+                                         <div id="content-left">
+                                             <div class="col-xs-10 col-md-4 col-lg-4 main-menu-left">
+                                                 <div class="col-sm-12 col-md-12 column">
+                                                     <img src="images/icon-laptop.png" class="laptop pull-left">
+                                                     <h3>
+                                                         <a href="#">Yangilik va e'lonlar</a>
+                                                     </h3>
+                                                     <p>Maktab hayotidagi son'ggi yangilik va e'lonlar, aktual ma'ulomotlar bo'limi</p>
+                                                     <hr class="double">
+                                                 </div>
+                                                 <div class="col-sm-12 col-md-12 column">
+                                                     <img src="images/icon-group.png" class="laptop pull-left">
+                                                     <h3>
+                                                         <a href="#">O`qituvchilarga</a>
+                                                     </h3>
+                                                     <p>O`quvchi tarbiyasi va bilim olishiga doir kompleks ma`lumotlar bazasi.</p>
+                                                     <hr class="double">
+                                                 </div>
+                                                 <div class="col-sm-12 col-md-12 column">
+                                                     <img src="images/icon-group.png" class="laptop pull-left">
+                                                     <h3>
+                                                         <a href="#">O`quvchilarga</a>
+                                                     </h3>
+                                                     <p>Chuqur bilim olishda lozim materiallar va ishlanmalar jamlanmasi.</p>
+                                                     <hr class="double">
+                                                 </div>
+                                                 <div class="col-sm-12 col-md-12 column">
+                                                     <img src="images/icon-film.png" class="laptop pull-left">
+                                                     <h3>
+                                                         <a href="#">Video va TV</a>
+                                                     </h3>
+                                                     <p>Videolavhalar kollektsiyasi: Maktab tadbirlari, TV Biz haqimizda TV.</p>
+                                                     <hr class="double">
+                                                 </div>
+                                                 <div class="col-sm-12 col-md-12 column">
+                                                     <img src="images/icon-book.png" class="laptop pull-left">
+                                                     <h3>
+                                                         <a href="#">Elektron kutubxona</a>
+                                                     </h3>
+                                                     <p>Milliy ta`lim kitoblari bazasi, o`quv materiallari, ishlanmalar, prezentatsiyalar hujjatlar arxivi.</p>
+                                                     <hr class="double">
+                                                 </div>
+                                                 <div class="col-sm-12 col-md-12 column">
+                                                     <img src="images/icon-group.png" class="laptop pull-left">
+                                                     <h3>
+                                                         <a href="#">Onlayn darslar</a>
+                                                     </h3>
+                                                     <p>Intensiv ta`lim video kurslari va o`quv videomateriallari.</p>
+                                                     <hr class="double">
+                                                 </div>
+                                             </div>
+                                             </div>
+                                         <div id="content-bottom">
+                                             <h3>MILLLIY HAVOLALAR</h3>
+                                             <ul class="hyper-links">
+                                                 <li><a href="http://www.gov.uz" target="_blank">O`zbekiston R. Hukumat portali</a></li>
+                                                 <li><a href="http://www.press.service.uz" target="_blank">O`zbekiston R. Prezident matbuot xizmati</a></li>
+                                                 <li><a href="http://www.parliament.gov.uz" target="_blank">O`zbekiston R. Oliy Majlisi</a></li>
+                                                 <li><a href="http://www.uz.edu.uz" target="_blank">Xalq ta`limi Vazirligi</a></li>
+                                                 <li><a href="http://www.edu.uz" target="_blank">Oliy va O`rta Maxsus Ta`lim Vazirligi</a></li>
+                                                 <li><a href="http://www.my.gov.uz" target="_blank">Interaktiv Davlat xizmatlari portali</a></li>
+                                                 <li><a href="http://www.dtm.uz" target="_blank">O`zbekiston R. Davlat Test Markazi</a></li>
+                                                 <li><a href="http://www.tashkent.uz" target="_blank">Toshkent shahar portali</a></li>
+                                                 <li><a href="http://www.ziyonet.uz" target="_blank">O`zbekiston Ta`lim portali</a></li>
+                                                 <li><a href="http://www.xt.uzedu.uz" target="_blank">XTVning Interaktiv xizmatlar portali</a></li>
+                                                 <li><a href="http://www.uz" target="_blank">O`zbekiston Milliy veb-katalogi</a></li>
+                                                 <li><a href="http://www.lex.uz/ru/main.uz" target="_blank">O`zbekiston R. Qonun hujjatlari bazasi</a></li>
+                                                 <li><a href="http://www.kitob.uz" target="_blank">Bolalar kutubxonasi</a></li>
+                                                 <li><a href="http://www.geografiya.uz" target="_blank">O`zbekiston geografiya portali</a></li>
+                                             </ul>
+
+                                         </div>
+                                     </aside>
+
+                                     <section class="pull-right">
+                                         <div class="col-right">
+                                             <h2>
+                                                 Xush kelibsiz azizlar!
+                                             </h2>
+                                             <p>Toshkent shahar 9-davlat ixtisoslashtirilgan umumta`lim maktabi uzluksiz ta'lim tizimining asosiy bo'g'ini bo'lib, u o'quvchi yoshlarga davlat ta'lim standartlari asosida fan asoslaridan umumiy o'rta ma'lumot beruvchi kunduzgi majburiy ta'limni ayrim fanlarni chuqur o'qitish va ixtisoslashtirilgan ta'lim bilan qo'shib olib boruvchi ta'lim muassasasidir.</p>
+                                             <hr>
+                                             <div class="strip-lessons">
+                                                 <div class="row">
+                                                     <div class="image-sourced pull-left">
+                                                         <img src="images/edu-logo-1.png">
+                                                     </div>
+                                                     <div class="about-news pull-right">
+                                                         <h4>
+                                                             <a href="#">Yilning eng yaxshi fan o'qituvchisi 2017</a>
+                                                         </h4>
+                                                         <p>"Yilning eng yaxshi fan o`qituvchisi" ko`rik-tanlovi umumta'lim <br> muassasalarining eng ilg'or, izlanuvchan, tashabbuskor o'qituvchilarini <br> aniqlash, ularning qobiliyati va mahoratini yuzaga</p>
+                                                         <ul class="date-lessons" style="position: relative;left: -15px;">
+                                                             <li><i class="fa fa-clock-o"></i>Sana: 8-04-2017, 17:58</li>
+                                                             <li><i class="fa fa-eye"></i>Tashriflar 66</li>
+                                                             <li><i class="fa fa-arrow-circle-right"></i><a href="#" style="font-family: monospace;">Batafsil</a></li>
+                                                         </ul>
+                                                     </div>
+                                                 </div>
+                                             </div>
+                                             <div class="strip-lessons">
+                                                 <div class="row">
+                                                     <div class="image-sourced pull-left">
+                                                         <img src="images/edu-logo-1.png">
+                                                     </div>
+                                                     <div class="about-news pull-right">
+                                                         <h4>
+                                                             <a href="#">Yilning eng yaxshi fan o'qituvchisi 2017</a>
+                                                         </h4>
+                                                         <p>"Yilning eng yaxshi fan o`qituvchisi" ko`rik-tanlovi umumta'lim <br> muassasalarining eng ilg'or, izlanuvchan, tashabbuskor o'qituvchilarini <br> aniqlash, ularning qobiliyati va mahoratini yuzaga</p>
+                                                         <ul class="date-lessons" style="position: relative;left: -15px;">
+                                                             <li><i class="fa fa-clock-o"></i>Sana: 8-04-2017, 17:58</li>
+                                                             <li><i class="fa fa-eye"></i>Tashriflar 66</li>
+                                                             <li><i class="fa fa-arrow-circle-right"></i><a href="#" style="font-family: monospace;">Batafsil</a></li>
+                                                         </ul>
+                                                     </div>
+                                                 </div>
+                                             </div>
+                                             <div class="strip-lessons">
+                                                 <div class="row">
+                                                     <div class="image-sourced pull-left">
+                                                         <img src="images/edu-logo-1.png">
+                                                     </div>
+                                                     <div class="about-news pull-right">
+                                                         <h4>
+                                                             <a href="#">Yilning eng yaxshi fan o'qituvchisi 2017</a>
+                                                         </h4>
+                                                         <p>"Yilning eng yaxshi fan o`qituvchisi" ko`rik-tanlovi umumta'lim <br> muassasalarining eng ilg'or, izlanuvchan, tashabbuskor o'qituvchilarini <br> aniqlash, ularning qobiliyati va mahoratini yuzaga</p>
+                                                         <ul class="date-lessons" style="position: relative;left: -15px;">
+                                                             <li><i class="fa fa-clock-o"></i>Sana: 8-04-2017, 17:58</li>
+                                                             <li><i class="fa fa-eye"></i>Tashriflar 66</li>
+                                                             <li><i class="fa fa-arrow-circle-right"></i><a href="#" style="font-family: monospace;">Batafsil</a></li>
+                                                         </ul>
+                                                     </div>
+                                                 </div>
+                                             </div>
+                                             <div class="strip-lessons">
+                                                 <div class="row">
+                                                     <div class="image-sourced pull-left">
+                                                         <img src="images/edu-logo-1.png">
+                                                     </div>
+                                                     <div class="about-news pull-right">
+                                                         <h4>
+                                                             <a href="#">Yilning eng yaxshi fan o'qituvchisi 2017</a>
+                                                         </h4>
+                                                         <p>"Yilning eng yaxshi fan o`qituvchisi" ko`rik-tanlovi umumta'lim <br> muassasalarining eng ilg'or, izlanuvchan, tashabbuskor o'qituvchilarini <br> aniqlash, ularning qobiliyati va mahoratini yuzaga</p>
+                                                         <ul class="date-lessons" style="position: relative;left: -15px;">
+                                                             <li><i class="fa fa-clock-o"></i>Sana: 8-04-2017, 17:58</li>
+                                                             <li><i class="fa fa-eye"></i>Tashriflar 66</li>
+                                                             <li><i class="fa fa-arrow-circle-right"></i><a href="#" style="font-family: monospace;">Batafsil</a></li>
+                                                         </ul>
+                                                     </div>
+                                                 </div>
+                                             </div>
+                                             <div class="strip-lessons">
+                                                 <div class="row">
+                                                     <div class="image-sourced pull-left">
+                                                         <img src="images/edu-logo-1.png">
+                                                     </div>
+                                                     <div class="about-news pull-right">
+                                                         <h4>
+                                                             <a href="#">Yilning eng yaxshi fan o'qituvchisi 2017</a>
+                                                         </h4>
+                                                         <p>"Yilning eng yaxshi fan o`qituvchisi" ko`rik-tanlovi umumta'lim <br> muassasalarining eng ilg'or, izlanuvchan, tashabbuskor o'qituvchilarini <br> aniqlash, ularning qobiliyati va mahoratini yuzaga</p>
+                                                         <ul class="date-lessons" style="position: relative;left: -15px;">
+                                                             <li><i class="fa fa-clock-o"></i>Sana: 8-04-2017, 17:58</li>
+                                                             <li><i class="fa fa-eye"></i>Tashriflar 66</li>
+                                                             <li><i class="fa fa-arrow-circle-right"></i><a href="#" style="font-family: monospace;">Batafsil</a></li>
+                                                         </ul>
+                                                     </div>
+                                                 </div>
+                                             </div>
+                                             <div class="strip-lessons">
+                                                 <div class="row">
+                                                     <div class="image-sourced pull-left">
+                                                         <img src="images/edu-logo-1.png">
+                                                     </div>
+                                                     <div class="about-news pull-right">
+                                                         <h4>
+                                                             <a href="#">Yilning eng yaxshi fan o'qituvchisi 2017</a>
+                                                         </h4>
+                                                         <p>"Yilning eng yaxshi fan o`qituvchisi" ko`rik-tanlovi umumta'lim <br> muassasalarining eng ilg'or, izlanuvchan, tashabbuskor o'qituvchilarini <br> aniqlash, ularning qobiliyati va mahoratini yuzaga</p>
+                                                         <ul class="date-lessons" style="position: relative;left: -15px;">
+                                                             <li><i class="fa fa-clock-o"></i>Sana: 8-04-2017, 17:58</li>
+                                                             <li><i class="fa fa-eye"></i>Tashriflar 66</li>
+                                                             <li><i class="fa fa-arrow-circle-right"></i><a href="#" style="font-family: monospace;">Batafsil</a></li>
+                                                         </ul>
+                                                     </div>
+                                                 </div>
+                                             </div>
+                                         </div>
+                                     </section>
+                                 </div>
+
+                             </div>  <!-- ////*****CONTENT****/// -->
+                             <!--
+                         =========== FOOTER =============
+                         -->
+                             <div class="footer">
+
+
+                                 <div class="container">
+                                     <div class="row">
+                                         <div class="col-lg-3 col-md-2 col-sm-3 col-xs-3">
+                                             <div style="float: left;">
+                                                 <img src="images/logo-footer.png" alt="" class="logo-footer" style="position: relative;left: 10px;">
+                                                 <p style="display: table;margin: 10px 0 0 0; color: #C8C8C8; text-align-last: center"> Toshkent shahar <br> 9-umumiy o'rta <br> ta'lim maktabi</p>
+                                             </div>
+
+                                         </div>
+                                         <div class="col-lg-4 col-md-3 col-sm-3 col-xs-5">
+                                             <h4>MANZIL VA ALOQA</h4>
+                                             <ul class="address">
+                                                 <li><i class="fa fa-home"></i>Toshkent shahar, Amir Temur ko'chasi</li>
+                                                 <li><i class="fa fa-phone"></i>Telefon: (+99879) 224 01 21</li>
+                                                 <li><i class="fa fa-print"></i>Faks: (0436) 224 01 21</li>
+                                                 <li><i class="fa fa-envelope"></i>Email: info@9-maktab.uz</li>
+                                                 <li><i class="fa fa-user"></i>Saytni yuritish bo`yicha mas`ul: Alimuhamedova U</li>
+                                             </ul>
+                                         </div>
+                                         <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3" style="font-family: monospace" >
+                                             <h4 style="margin-left: -18px">TEZKOR MENYU</h4>
+                                             <ul class="address" style="list-style-type: disc">
+                                                 <li><a href="#">Veb-sayt umumlashgan statistikasi</a></li>
+                                                 <li><a href="#">Veb-sayt xaritasi</a></li>
+                                                 <li><a href="#">RSS</a></li>
+                                                 <li><a href="#">Biz bilan bog`lanish</a></li>
+                                                 <li><a href="#">Veb-saytning mobil ko`rinishi</a></li>
+                                             </ul>
+                                         </div>
+                                     </div>
+                                 </div>
+
+                             </div>  <!-- ///FOOTER -->

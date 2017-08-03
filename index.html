@@ -1,0 +1,1041 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Toshkent shahar 9-sonli umumiy o'rta ta'lim maktab</title>
+    <link href="https://fonts.googleapis.com/css?family=Cantarell:700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Palanquin+Dark" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet" type="text/css">
+    <link rel="shortcut icon" href="images/hat-educational.png" type="image/png">
+    <link href="css/animate.css" type="text/css" rel="stylesheet">
+    <script src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
+    <script src="js/bootstrap.js" type="text/javascript"></script>
+    <script src="js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="https://use.fontawesome.com/18c955b577.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyACCYpu069i3JJNR37stJdGNzhU0r-xHg0"></script>
+    <script type="text/javascript" src="js/jssor.slider-21.1.5.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <link href="css/template.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <script>
+        var loadVar;
+
+        function loadFunction() {
+            loadVar = setTimeout(showPage, 1000);
+        }
+
+        function showPage() {
+            $("#loader").css('display', 'none');
+            $("#myDiv").css('display', 'block');
+        }
+        new WOW().init();
+    </script>
+    <script>
+        jssor_1_slider_init = function() {
+
+            var jssor_1_SlideoTransitions = [
+               // [{b:-1,d:1,o:-1},{b:0,d:1000,o:1}],
+               // [{b:1900,d:2000,x:-379,e:{x:7}}],
+              //  [{b:1900,d:2000,x:-379,e:{x:7}}],
+                //[{b:-1,d:1,o:-1,r:288,sX:9,sY:9},{b:1000,d:900,x:-1400,y:-660,o:1,r:-288,sX:-9,sY:-9,e:{r:6}},{b:1900,d:1600,x:-200,o:-1,e:{x:16}}]
+                {$Duration:200,y:1,$Easing:$Jease$.$InQuad}
+            ];
+
+            var jssor_1_options = {
+                $AutoPlay: true,
+                $SlideDuration: 800,
+                $SlideEasing: $Jease$.$OutQuint,
+                $CaptionSliderOptions: {
+                    $Class: $JssorCaptionSlideo$,
+                    $Transitions: jssor_1_SlideoTransitions
+                },
+                $ArrowNavigatorOptions: {
+                    $Class: $JssorArrowNavigator$
+                },
+                $BulletNavigatorOptions: {
+                    $Class: $JssorBulletNavigator$
+                }
+            };
+
+
+            var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
+
+            //responsive code begin
+            //you can remove responsive code if you don't want the slider scales while window resizing
+            function ScaleSlider() {
+                var refSize = jssor_1_slider.$Elmt.parentNode.clientWidth;
+                if (refSize) {
+                    refSize = Math.min(refSize, 1920);
+                    jssor_1_slider.$ScaleWidth(refSize);
+                }
+                else {
+                    window.setTimeout(ScaleSlider, 30);
+                }
+            }
+            ScaleSlider();
+            $Jssor$.$AddEvent(window, "load", ScaleSlider);
+            $Jssor$.$AddEvent(window, "resize", ScaleSlider);
+            $Jssor$.$AddEvent(window, "orientationchange", ScaleSlider);
+            //responsive code end
+        };
+    </script>
+    <style>
+
+        /* jssor slider bullet navigator skin 05 css */
+        /*
+        .jssorb05 div           (normal)
+        .jssorb05 div:hover     (normal mouseover)
+        .jssorb05 .av           (active)
+        .jssorb05 .av:hover     (active mouseover)
+        .jssorb05 .dn           (mousedown)
+        */
+        .jssorb05 {
+            position: absolute;
+        }
+        .jssorb05 div, .jssorb05 div:hover, .jssorb05 .av {
+            position: absolute;
+            /* size of bullet elment */
+            width: 16px;
+            height: 16px;
+            /*background: url('img/b05.png') no-repeat;*/
+            overflow: hidden;
+            cursor: pointer;
+        }
+        .jssorb05 div { background-position: -7px -7px; }
+        .jssorb05 div:hover, .jssorb05 .av:hover { background-position: -37px -7px; }
+        .jssorb05 .av { background-position: -67px -7px; }
+        .jssorb05 .dn, .jssorb05 .dn:hover { background-position: -97px -7px; }
+
+        /* jssor slider arrow navigator skin 22 css */
+        /*
+        .jssora22l                  (normal)
+        .jssora22r                  (normal)
+        .jssora22l:hover            (normal mouseover)
+        .jssora22r:hover            (normal mouseover)
+        .jssora22l.jssora22ldn      (mousedown)
+        .jssora22r.jssora22rdn      (mousedown)
+        */
+        .jssora22l, .jssora22r {
+            display: block;
+            position: absolute;
+            /* size of arrow element */
+            width: 40px;
+            height: 58px;
+            cursor: pointer;
+            background: url('images/a22.png') center center no-repeat;
+            overflow: hidden;
+        }
+        .jssora22l { background-position: -10px -31px; }
+        .jssora22r { background-position: -70px -31px; }
+        .jssora22l:hover { background-position: -130px -31px; }
+        .jssora22r:hover { background-position: -190px -31px; }
+        .jssora22l.jssora22ldn { background-position: -250px -31px; }
+        .jssora22r.jssora22rdn { background-position: -310px -31px; }
+    </style>
+    <style>
+        /* Center the loader */
+        #loader {
+            color: darkturquoise;
+            font-size: 20px;
+            margin: 10em auto;
+            width: 1em;
+            height: 1em;
+            border-radius: 50%;
+            position: relative;
+            text-indent: -9999em;
+            -webkit-animation: load4 1.3s infinite linear;
+            animation: load4 1.3s infinite linear;
+            -webkit-transform: translateZ(0);
+            -ms-transform: translateZ(0);
+            transform: translateZ(0);
+        }
+
+        @-webkit-keyframes load4 {
+            0%,
+            100% {
+                box-shadow: 0 -3em 0 0.2em, 2em -2em 0 0em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 0;
+            }
+            12.5% {
+                box-shadow: 0 -3em 0 0, 2em -2em 0 0.2em, 3em 0 0 0, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 -1em;
+            }
+            25% {
+                box-shadow: 0 -3em 0 -0.5em, 2em -2em 0 0, 3em 0 0 0.2em, 2em 2em 0 0, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 -1em;
+            }
+            37.5% {
+                box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0em 0 0, 2em 2em 0 0.2em, 0 3em 0 0em, -2em 2em 0 -1em, -3em 0em 0 -1em, -2em -2em 0 -1em;
+            }
+            50% {
+                box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 0em, 0 3em 0 0.2em, -2em 2em 0 0, -3em 0em 0 -1em, -2em -2em 0 -1em;
+            }
+            62.5% {
+                box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 0, -2em 2em 0 0.2em, -3em 0 0 0, -2em -2em 0 -1em;
+            }
+            75% {
+                box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0em 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 0, -3em 0em 0 0.2em, -2em -2em 0 0;
+            }
+            87.5% {
+                box-shadow: 0 -3em 0 0, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 0, -3em 0em 0 0, -2em -2em 0 0.2em;
+            }
+        }
+        @keyframes load4 {
+            0%,
+            100% {
+                box-shadow: 0 -3em 0 0.2em, 2em -2em 0 0em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 0;
+            }
+            12.5% {
+                box-shadow: 0 -3em 0 0, 2em -2em 0 0.2em, 3em 0 0 0, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 -1em;
+            }
+            25% {
+                box-shadow: 0 -3em 0 -0.5em, 2em -2em 0 0, 3em 0 0 0.2em, 2em 2em 0 0, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 -1em;
+            }
+            37.5% {
+                box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0em 0 0, 2em 2em 0 0.2em, 0 3em 0 0em, -2em 2em 0 -1em, -3em 0em 0 -1em, -2em -2em 0 -1em;
+            }
+            50% {
+                box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 0em, 0 3em 0 0.2em, -2em 2em 0 0, -3em 0em 0 -1em, -2em -2em 0 -1em;
+            }
+            62.5% {
+                box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 0, -2em 2em 0 0.2em, -3em 0 0 0, -2em -2em 0 -1em;
+            }
+            75% {
+                box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0em 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 0, -3em 0em 0 0.2em, -2em -2em 0 0;
+            }
+            87.5% {
+                box-shadow: 0 -3em 0 0, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 0, -3em 0em 0 0, -2em -2em 0 0.2em;
+            }
+        }
+        /* Add animation to "page content"
+        .animate-bottom {
+            position: relative;
+            -webkit-animation-name: animatebottom;
+            -webkit-animation-duration: 1s;
+            animation-name: animatebottom;
+            animation-duration: 1s
+        }
+
+        @-webkit-keyframes animatebottom {
+            from { bottom:-100px; opacity:0 }
+            to { bottom:0; opacity:1 }
+        }
+
+        @keyframes animatebottom {
+            from{ bottom:-100px; opacity:0 }
+            to{ bottom:0; opacity:1 }
+        }*/
+
+        #myDiv {
+            display: none;
+            text-align: center;
+        }
+    </style>
+</head>
+<body onload="loadFunction()">
+<div id="loader"></div>
+<div class="wrap animate-bottom" style="display:none;" id="myDiv">
+           <header>
+               <div class="container">
+                   <div class="row">
+                             <div class="col-xs-6 col-sm-6 col-md-4">
+                          <img src="images/Main-Logo-School.png" align="left" style="margin-right: 5px;">
+                           <div class="name">
+                               <p>Toshkent Shahar </p>
+                               <p>9-umumiy or'ta ta'lim maktab</p>
+                           </div>
+                       </div>
+                       <div class="col-xs-6 col-sm-6 col-md-4 rightSide">
+                           <div id="phone">
+
+                             <p>(+99871) 235 24 02 </p>
+                               <p class="bottom-mini-text">Maktab ma'muriyati</p>
+
+                           </div>
+                           <img src="images/phone.png" class="img-phone">
+
+
+
+                        </div>
+                    </div>
+                 </div>
+           </header>
+
+        <!-- Begin Mega Dropdown Menu!-->
+    <div class="container" style="width: 100%;padding: 0;margin: 0;">
+        <nav class="main-nav navbar-left" role="navigation" style=" background: #0099cc -webkit-linear-gradient(top,rgba(255,255,255,.2) 0%,rgba(0,0,0,.2) 100%);">
+            <div class="navbar-header text-center">
+                <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="toggle-title">Menu</span>
+                    <span class="icon-bar-wrapper">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </span><!--//icon-bar-wrapper-->
+                </button><!--//nav-toggle-->
+            </div><!--//navbar-header-->
+            <div id="navbar-collapse" class="navbar-collapse collapse text-center">
+                <ul class="nav navbar-nav center-block">
+                    <li class="nav-item first "><a  href="#">O`QUVCHILARGA<i class="fa fa-angle-down"></i></a>
+                        <div class="drop-down-container d-n" style="margin-left: -3em;">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-3 col-sm-6 col-xs-12 left " style="height: 510px;">
+                                    <h4 style="color: white">Elektron kutubxona</h4>
+                                    <ul class="list-menu">
+                                        <li><a href="#">Matematika</a></li>
+                                        <li><a href="#">Informatika</a></li>
+                                        <li><a href="#">Ingliz tili</a></li>
+                                        <li><a href="#">Rus tili</a></li>
+                                        <li><a href="#">Biologiya va zoologiya</a></li>
+                                        <li><a href="#">Fizika</a></li>
+                                        <li><a href="#">Kimyo</a></li>
+                                        <li><a href="#">Geografiya</a></li>
+                                        <li><a href="#">Ona tili va adabiyot</a></li>
+                                        <li><a href="#">Tarix</a></li>
+                                        <li><a href="#">Huquq va ma'naviyat asoslari</a></li>
+                                        <li><a href="#">Boshlang'ish ta'lim</a></li>
+                                        <li><a href="#">Iqtisod</a></li>
+                                        <li><a href="#">Jismoniy tarbiya</a></li>
+                                        <li><a href="#">Musiqa</a></li>
+                                        <li><a href="#">Mehnat ta'limi</a></li>
+                                        <li><a href="#">Chizmachilik va ta'sviriy sa'nat</a></li>
+                                    </ul>
+                                    <p class="all">
+                                        <a href="#" class="bottom-button">
+                                            Barcha darsliklar
+                                        </a>
+                                    </p>
+                                </div>
+                                <div class="col-md-8 col-sm-8 col-xs-12 right" style="height: 266px;">
+                                    <div class="row">
+                                        <div class="col-md-4 col-sm-6">
+                                            <h5><a href="#">
+                                                Imtihonlar jadvali
+                                            </a></h5>
+                                            <p style="color: white; font-size: 12px">Diqqat, diqqat, diqqat! Imtihon-2017. Sinovga puxta tayyorlaning!</p>
+                                            <p class="button_red_small"><a href="#" style="color: #fff">
+                                                Batafsil
+                                            </a></p>
+                                        </div>
+                                        <div class="col-md-4 col-sm-6">
+                                            <h5><a href="#">
+                                                Imtihonlar jadvali
+                                            </a></h5>
+                                            <p style="color: white; font-size: 12px">Diqqat, diqqat, diqqat! Imtihon-2017. Sinovga puxta tayyorlaning!</p>
+                                            <p class="button_red_small"><a href="#" style="color: #fff">
+                                                Batafsil
+                                            </a></p>
+                                        </div>
+                                        <div class="col-md-4 col-sm-6">
+                                            <h5><a href="#">
+                                                Imtihonlar jadvali
+                                            </a></h5>
+                                            <p style="color: white; font-size: 12px">Diqqat, diqqat, diqqat! Imtihon-2017. Sinovga puxta tayyorlaning!</p>
+                                            <p class="button_red_small"><a href="#" style="color: #fff">
+                                                Batafsil
+                                            </a></p>
+                                        </div>
+
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-4 col-sm-6">
+                                            <h5><a href="#">
+                                                Imtihonlar jadvali
+                                            </a></h5>
+                                            <p style="color: white; font-size: 12px">Diqqat, diqqat, diqqat! Imtihon-2017. Sinovga puxta tayyorlaning!</p>
+                                            <p class="button_red_small"><a href="#" style="color: #fff">
+                                                Batafsil
+                                            </a></p>
+                                        </div>
+                                        <div class="col-md-4 col-sm-6">
+                                            <h5><a href="#">
+                                                Imtihonlar jadvali
+                                            </a></h5>
+                                            <p style="color: white; font-size: 12px">Diqqat, diqqat, diqqat! Imtihon-2017. Sinovga puxta tayyorlaning!</p>
+                                            <p class="button_red_small"><a href="#" style="color: #fff">
+                                                Batafsil
+                                            </a></p>
+                                        </div>
+                                        <div class="col-md-4 col-sm-6">
+                                            <h5><a href="#">
+                                                Imtihonlar jadvali
+                                            </a></h5>
+                                            <p style="color: white; font-size: 12px">Diqqat, diqqat, diqqat! Imtihon-2017. Sinovga puxta tayyorlaning!</p>
+                                            <p class="button_red_small"><a href="#" style="color: #fff">
+                                                Batafsil
+                                            </a></p>
+                                        </div>
+                                            </div>
+                                    </div>
+                                </div>
+                            </div>
+                    </li> <!--************END************-->
+                    <li class="nav-item sec "><a  href="#">JAMOA VA O`QITUVCHILARGA<i class="fa fa-angle-down"></i></a>
+                         <div class="drop-down-container-sec d-n" style="margin-left: -13em;">
+                              <div class="row">
+                                  <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 left " style="height: 510px;">
+                                      <h4 style="color: white">Tezkor menyu</h4>
+                                      <ul class="list-menu">
+                                          <li><a href="#">Dars ishlanmalari</a></li>
+                                          <li><a href="#">Ilg`or texnologiyalar</a></li>
+                                          <li><a href="#">Tajriba sinovlari</a></li>
+                                          <li><a href="#">Kasaba uyushmamiz</a></li>
+                                          <li><a href="#">Moddiy-texnika bazamiz</a></li>
+                                          <li><a href="#">Davlat dasturlari ijrosi</a></li>
+                                          <li><a href="#">Me`yoriy hujjatlar</a></li>
+                                          <li><a href="#">Maktab konsepsiyasi</a></li>
+                                          <li><a href="#">Ustozlarimiz</a></li>
+                                          <li><a href="#">Maktab rahbariyati</a></li>
+                                          <li><a href="#">Kadrlar salohiyati</a></li>
+                                          <li><a href="#">Hisobot o`rnida</a></li>
+                                          <li><a href="#">Doimiy komissiyalar</a></li>
+                                          <li><a href="#">Homiylarimiz</a></li>
+                                          <li><a href="#">Hamkorlik</a></li>
+                                          <li><a href="#">Ijodkor o`qituvchilar</a></li>
+                                          <li><a href="#">Yilning eng yaxshi fan o`qituvchisi</a></li>
+                                          <li><a href="#">Attestasiya materiallari</a></li>
+                                          <li><a href="#">O`quv rejalari</a></li>
+                                      </ul>
+                                      <p class="all">
+                                          <a href="#" class="bottom-button">
+                                              Umumiy yig'inda
+                                          </a>
+                                      </p>
+                                       </div>
+                                  <div class="col-md-8 col-sm-8 col-xs-12 right">
+
+                                          <!-- Nav tabs -->
+                                          <ul class="nav nav-tabs" role="tablist">
+                                              <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Rahbariyatimiz!</a></li>
+                                              <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Maktabimiz: Tarix va mqasad </a></li>
+                                          </ul>
+                                          <!-- Tab panes -->
+                                          <div class="tab-content">
+                                              <div role="tabpanel" class="tab-pane active" id="home" style="padding-top: 20px;">
+                                                  <div class="row">
+                                                      <div class="col-md-4 col-sm-6">
+                                                          <img src="http://placehold.it/250x150" class="img-rounded">
+                                                          <h5 style="font-weight: inherit">To'laganova Dildora Xalilovna <em>Maktab direktori</em></h5>
+                                                          <p style="font-size: 12px;">Yoshlarga g'amxur, bolalarga mehribon, jamoada tartibni yoqtiruvchi fidoiy inson haqida fikrimiz...</p>
+                                                          <p class="button_red_small"><a href="#" style="color: #fff">
+                                                              Ustoz haqida
+                                                          </a></p>
+                                                      </div>
+                                                      <div class="col-md-4 col-sm-6">
+                                                          <img src="http://placehold.it/250x150" class="img-rounded">
+                                                          <h5 style="font-weight: inherit">To'laganova Dildora Xalilovna <em>Maktab direktori</em></h5>
+                                                          <p style="font-size: 12px;">Yoshlarga g'amxur, bolalarga mehribon, jamoada tartibni yoqtiruvchi fidoiy inson haqida fikrimiz...</p>
+                                                          <p class="button_red_small"><a href="#" style="color: #fff">
+                                                              Ustoz haqida
+                                                          </a></p>
+                                                      </div>
+                                                      <div class="col-md-4 col-sm-6">
+                                                          <img src="http://placehold.it/250x150" class="img-rounded">
+                                                          <h5 style="font-weight: inherit">To'laganova Dildora Xalilovna <em>Maktab direktori</em></h5>
+                                                          <p style="font-size: 12px;">Yoshlarga g'amxur, bolalarga mehribon, jamoada tartibni yoqtiruvchi fidoiy inson haqida fikrimiz...</p>
+                                                          <p class="button_red_small"><a href="#" style="color: #fff">
+                                                              Ustoz haqida
+                                                          </a></p>
+                                                      </div>
+                                                  </div>
+                                                  <div class="row">
+                                                      <div class="col-md-4 col-sm-6">
+                                                          <img src="http://placehold.it/250x150" class="img-rounded">
+                                                          <h5 style="font-weight: inherit">To'laganova Dildora Xalilovna <em>Maktab direktori</em></h5>
+                                                          <p style="font-size: 12px;">Yoshlarga g'amxur, bolalarga mehribon, jamoada tartibni yoqtiruvchi fidoiy inson haqida fikrimiz...</p>
+                                                          <p class="button_red_small"><a href="#" style="color: #fff">
+                                                              Ustoz haqida
+                                                          </a></p>
+                                                      </div>
+                                                      <div class="col-md-4 col-sm-6">
+                                                          <img src="http://placehold.it/250x150" class="img-rounded">
+                                                          <h5 style="font-weight: inherit">To'laganova Dildora Xalilovna <em>Maktab direktori</em></h5>
+                                                          <p style="font-size: 12px;">Yoshlarga g'amxur, bolalarga mehribon, jamoada tartibni yoqtiruvchi fidoiy inson haqida fikrimiz...</p>
+                                                          <p class="button_red_small"><a href="#" style="color: #fff">
+                                                              Ustoz haqida
+                                                          </a></p>
+                                                      </div>
+                                                      <div class="col-md-4 col-sm-6">
+                                                          <img src="http://placehold.it/250x150" class="img-rounded">
+                                                          <h5 style="font-weight: inherit">To'laganova Dildora Xalilovna <em>Maktab direktori</em></h5>
+                                                          <p style="font-size: 12px;">Yoshlarga g'amxur, bolalarga mehribon, jamoada tartibni yoqtiruvchi fidoiy inson haqida fikrimiz...</p>
+                                                          <p class="button_red_small"><a href="#" style="color: #fff">
+                                                              Ustoz haqida
+                                                          </a></p>
+                                                      </div>
+                                                  </div>
+                                              </div>
+
+                                              <div role="tabpanel" class="tab-pane" id="profile">
+                                                  <div id="text-xel">
+                                                      <p>
+                                                          Bizning maktabda - O'quv-tarbiya jarayoni ixtisosli fanlarning asosiy kursini chuqurlashtirilgan mazmunini o'rganilishi va ularning amaliy yo'naltirilganligi kuchaytirilishini, shuningdek o'quvchilarning shaxsi, ularning mayllari, manfaatlari va ijtimoiy jihatdan o`zlarini belgilashga qobiliyatlari qaror topishi va shakllanishining shart-sharoitlarini ta'minlaydi.
+                                                          Bunda o'quvchilarning individual xususiyatlari va iste'dodi namoyon bo'lishi hamda rivojlanishi dinamikasi o'rganiladi.
+                                                      </p>
+                                                      <hr style="margin: 20px 0 20px 0;border: 0;border-top: 1px solid #25282d;border-bottom: 1px solid #414750;">
+                                                      <div class="row">
+                                                          <div class="col-md-6">
+                                                              <h5>Maktab tarixi</h5>
+                                                              <p>Maktab tarixi maktab faoliyatini emas, maktab faoliyati maktab tarixini bezaydi. Zero har bir ustoz mehnati, fidoyiligi, har bir shogird iqtidori-yu iste`dodi, yutuqlari, maktab tarixi zarvaraqlari bitiklariga durday terilajak.</p>
+                                                          </div>
+                                                          <div class="col-md-6">
+                                                              <h5>Maqsadimiz</h5>
+                                                              <p>So`lom bola - Sog`lom oilaning mevasi, sog`lom fikrli yuksak ma`naviyatli muallim ishonchi, farzandlariga qanot bergan yurt tayanchi. Zero, ezgu maqsadimiz: Yoshlarimizni hech kimning qo`liga bermaymiz! Ularni o`zimiz tarbiya qilamiz!</p>
+                                                          </div>
+                                                      </div>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                    </div>
+                                            </div>
+                                                </div>
+                    </li> <!--************END************-->
+                    <li class="nav-item rd "><a  href="#" >MAKTAB VA TA`LIM<i class="fa fa-angle-down"></i></a>
+                        <div class="drop-down-container-rd d-n" style="margin-left: -28em">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-3 col-sm-6 col-xs-12 left">
+                                    <h4 style="color: white">Elektron kutubxona</h4>
+                                    <ul class="list-menu">
+                                        <li><a href="#">Bitiruvchilar vinetkalari</a></li>
+                                        <li><a href="#">Maktab Nizomi</a></li>
+                                        <li><a href="#">Maktabimiz pasporti</a></li>
+                                        <li><a href="#">Ichki tartib-qoidalar</a></li>
+                                        <li><a href="#">Ona-vatan madhi</a></li>
+                                        <li><a href="#">Alifbe bayramlari</a></li>
+                                        <li><a href="#">To`garaklarimiz</a></li>
+                                        <li><a href="#">"Bilimlar bellashuvi" akademiya klublari</a></li>
+                                        <li><a href="#">Fotoalbom</a></li>
+                                        <li><a href="#">Videolavhalar</a></li>
+                                        <li><a href="#">Tibbiy xizmat</a></li>
+                                        <li><a href="#">Ogohlik va xavfsizlik</a></li>
+                                    </ul>
+                                    <p class="all">
+                                        <a href="#" class="bottom-button">
+                                            Barcha darsliklar
+                                        </a>
+                                    </p>
+                                </div>
+                                <div class="col-md-8 col-sm-8 col-xs-12 right">
+                                    <div class="row">
+                                        <div class="col-md-4 col-sm-6">
+                                            <h5><a href="#">
+                                                Imtihonlar jadvali
+                                            </a></h5>
+                                            <p style="color: white; font-size: 12px">Diqqat, diqqat, diqqat! Imtihon-2017. Sinovga puxta tayyorlaning!</p>
+                                            <p class="button_red_small"><a href="#" style="color: #fff">
+                                                Batafsil
+                                            </a></p>
+                                        </div>
+                                        <div class="col-md-4 col-sm-6">
+                                            <h5><a href="#">
+                                                Imtihonlar jadvali
+                                            </a></h5>
+                                            <p style="color: white; font-size: 12px">Diqqat, diqqat, diqqat! Imtihon-2017. Sinovga puxta tayyorlaning!</p>
+                                            <p class="button_red_small"><a href="#" style="color: #fff">
+                                                Batafsil
+                                            </a></p>
+                                        </div>
+                                        <div class="col-md-4 col-sm-6">
+                                            <h5><a href="#">
+                                                Imtihonlar jadvali
+                                            </a></h5>
+                                            <p style="color: white; font-size: 12px">Diqqat, diqqat, diqqat! Imtihon-2017. Sinovga puxta tayyorlaning!</p>
+                                            <p class="button_red_small"><a href="#" style="color: #fff">
+                                                Batafsil
+                                            </a></p>
+                                        </div>
+
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-4 col-sm-6">
+                                            <h5><a href="#">
+                                                Imtihonlar jadvali
+                                            </a></h5>
+                                            <p style="color: white; font-size: 12px">Diqqat, diqqat, diqqat! Imtihon-2017. Sinovga puxta tayyorlaning!</p>
+                                            <p class="button_red_small"><a href="#" style="color: #fff">
+                                                Batafsil
+                                            </a></p>
+                                        </div>
+                                        <div class="col-md-4 col-sm-6">
+                                            <h5><a href="#">
+                                                Imtihonlar jadvali
+                                            </a></h5>
+                                            <p style="color: white; font-size: 12px">Diqqat, diqqat, diqqat! Imtihon-2017. Sinovga puxta tayyorlaning!</p>
+                                            <p class="button_red_small"><a href="#" style="color: #fff">
+                                                Batafsil
+                                            </a></p>
+                                        </div>
+                                        <div class="col-md-4 col-sm-6">
+                                            <h5><a href="#">
+                                                Imtihonlar jadvali
+                                            </a></h5>
+                                            <p style="color: white; font-size: 12px">Diqqat, diqqat, diqqat! Imtihon-2017. Sinovga puxta tayyorlaning!</p>
+                                            <p class="button_red_small"><a href="#" style="color: #fff">
+                                                Batafsil
+                                            </a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item fth "><a  href="#">INTERAKTIV XIZMATLAR<i class="fa fa-angle-down"></i></a>
+                        <div class="drop-down-container-fth d-n" style="margin-left: -39em">
+                            <div class="row">
+                                <div class="col-lg-12 col-md-6">
+                                    <div class="col-md-3"><a href="#">
+                                       Psixolog xizmati-markazi
+                                        <i class="fa fa-building" style="float: right; font-size: 31px;position: relative;top: -5px;"></i>
+                                    </a></div>
+                                    <div class="col-md-3"><a href="#">
+                                        Manzil-xaritamiz
+                                        <i class="fa fa-flag" style="float: right; font-size: 31px;position: relative;top: -5px;"></i>
+                                    </a></div>
+                                    <div class="col-md-3"><a href="#">
+                                        Testlar - Bilimni sinang
+                                        <i class="fa fa-list" style="float: right; font-size: 31px;position: relative;top: -5px;"></i>
+                                    </a></div>
+                                    <div class="col-md-3"><a href="#">
+                                        Rahbariyat qabul kunlari
+                                        <i class="fa fa-book" style="float: right; font-size: 31px;position: relative;top: -5px;"></i>
+                                    </a></div>
+                                    <div class="col-md-3"><a href="#">
+                                        Onlayn darslar
+                                        <i class="fa fa-group" style="float: right; font-size: 31px;position: relative;top: -5px;"></i>
+                                    </a></div>
+                                    <div class="col-md-3"><a href="#">
+                                        Murojaat markazi
+                                        <i class="fa fa-envelope" style="float: right; font-size: 31px;position: relative;top: -5px;"></i>
+                                    </a></div>
+                                    <div class="col-md-3"><a href="#">
+                                        Barcha Interaktiv xizmatlar
+                                        <i class="fa fa-eye" style="float: right; font-size: 31px;position: relative;top: -5px;"></i>
+                                    </a></div>
+                                    <div class="col-md-3"><a href="#">
+                                        Yangilik va e`lonlar
+                                        <i class="fa fa-chevron-right" style="float: right; font-size: 31px;position: relative;top: -5px;"></i>
+                                    </a></div>
+                                    <div class="col-md-3"><a href="#">
+                                        Savol-javoblar
+                                        <i class="fa fa-comments" style="float: right; font-size: 31px;position: relative;top: -5px;"></i>
+                                    </a></div>
+                                    <div class="col-md-3"><a href="#">
+                                        Mp3 bo`lim
+                                        <i class="fa fa-music" style="float: right; font-size: 31px;position: relative;top: -5px;"></i>
+                                    </a></div>
+                                    <div class="col-md-3"><a href="#">
+                                        Ishonch telefonlari
+                                        <i class="fa fa-text-height" style="float: right; font-size: 31px;position: relative;top: -5px;"></i>
+                                    </a></div>
+                                    <div class="col-md-3"><a href="#">
+                                        Sayt ishlanmasi
+                                        <i class="fa fa-code" style="float: right; font-size: 31px;position: relative;top: -5px;"></i>
+                                    </a></div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item fvth"><a  href="#">BIZNING MANZIL<i class="fa fa-angle-down"></i></a>
+                        <div class="drop-down-container-fvth d-n" style="margin-left: -51em">
+                            <div class="row">
+                                <div class="col-md-6 left" style="margin-bottom: 20px;">
+                                 <!--   <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11984.045557055777!2d69.2790556!3d41.3303657!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9b0501bac7b588cd!2z0KjQutC-0LvQsCDihJY5!5e0!3m2!1sru!2s!4v1494261583866" width="470" height="340" frameborder="0" style="border:0" allowfullscreen></iframe>-->
+                                    <div id="map" class="map"></div>
+                                </div>
+                                <div class="col-md-3">
+                                  <h4 style="color: white; font-weight: 100;">Manzilimiz:</h4>
+                                    <ul class="address-go">
+                                        <li>
+                                            <i class="fa fa-home"></i>
+                                            Toshkent sh, Yunusobod tumani, Amir T k
+                                        </li>
+                                        <li>
+                                            <i class="fa fa-map-marker"></i>
+                                            Mo'ljal:Diyor kafe , Lor stom klinikasi
+                                        </li>
+                                        <li>
+                                            <i class="fa fa-bus"></i>
+                                            Qatnov transpoortlari: 51,72,91,95...
+                                        </li>
+                                        <li>
+                                            <i class="fa fa-envelope"></i>
+                                            Pochta indeksi: 123456
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-3">
+                                    <h4 style="color: white; font-weight: 100;">Aloqa</h4>
+                                    <ul class="address-go">
+                                        <li>
+                                            <i class="fa fa-phone"></i>
+                                            Aloqa raqami: (+99871) 235 24 02
+                                        </li>
+                                        <li>
+                                            <i class="fa fa-fax"></i>
+                                            Faks: (+99871) 235 24 02
+                                        </li>
+                                        <li>
+                                            <i class="fa fa-envelope-o"></i>
+                                            Email: 9maktab@gmail.com
+                                        </li>
+                                        <li>
+                                            <i class="fa fa-user"></i>
+                                            Veb-saytni yuritish bo'yicha mas'ul: Alimuhamedovna U
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-3" style="    margin-top: 20px;">
+                                        <h5>Tashrif buyurmoqchimisiz?</h5>
+                                    <p style="font-size: 12px;">Bizning 9-maktab Toshkent shahrining markazida joylashgan. Manzil yuqorida ko'rsatilgan yoki chap tomondagi Google Maps qidirib  topishingiz mumkin. Tashrif buyurshingizdan oldin rahbarlarning qabul kunlarni ko'rib chiqing</p>
+                                    <p class="button_red_small"><a href="#" style="color: #fff">
+                                        Batafsil
+                                    </a></p>
+                                </div>
+                                <div class="col-md-3" style="margin-top: 20px">
+                                    <h5>Xush kelibsiz</h5>
+                                    <p style="font-size: 12px;">Toshkent shahridagi 9-davlat  umumiy o'rta ta'lim maktabi Toshkent shahri ta'lim tizimining namunaviy maktabi bo'lib o'z fikr va mulohazalaringizni bizga yozishingiz, tajriba almashish va boshqa yunalishlar buyicha murojaat qilishingiz mumkin.</p>
+                                    <p class="button_red_small"><a href="#" style="color: #fff">
+                                        Murojat etish
+                                    </a></p>
+                                </div>
+                                </div>
+                            </div>
+                    </li>
+                    <li class="nav-item"><a  href="example.html">Yangiliklar</a></li>
+                    <li class="nav-item"><a  href="#">Forum</a></li>
+                </ul><!--//nav-->
+            </div><!--//navabr-collapse-->
+        </nav><!--//main-nav-->
+    </div><!--//container-->
+    <!--****** Slider Begin ******* -->
+    <div id="jssor_1" style="position: relative; margin: 0 auto; top: 0; left: 0; width: 1300px; height: 500px; overflow: hidden; visibility: hidden;" class="wow fadeInDown">
+        <!-- Loading Screen -->
+        <div data-u="loading" style="position: absolute; top: 0; left: 0;">
+            <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0; left: 0; width: 100%; height: 100%;"></div>
+            <div style="position:absolute;display:block;background:url('images/loading.gif') no-repeat center center;top:0;left:0;width:100%;height:100%;"></div>
+        </div>
+        <div data-u="slides" style="cursor: default; position: relative; top: 0; left: 0; width: 1300px; height: 500px; overflow: hidden;">
+            <div data-p="225.00" style="display: none;">
+                <img data-u="image" src="images/slider-1.png"/>
+            </div>
+            <div data-p="225.00" style="display: none;">
+                <img data-u="image" src="images/slider-2.png" />
+            </div>
+            <div data-p="225.00" data-po="80% 55%" style="display: none;">
+                <img data-u="image" src="images/slider-3.png" />
+            </div>
+            <a data-u="any" href="http://www.jssor.com/demos/full-width-slider.slider" style="display:none">Full Width Slider</a>
+
+        </div>
+        <!-- Bullet Navigator -->
+        <div data-u="navigator" class="jssorb05" style="bottom:16px;right:16px;" data-autocenter="1">
+            <!-- bullet navigator item prototype -->
+            <div data-u="prototype" style="width:16px;height:16px;"></div>
+        </div>
+        <!-- Arrow Navigator -->
+        <span data-u="arrowleft" class="jssora22l" style="top:0;left:12px;width:40px;height:58px;" data-autocenter="2"></span>
+        <span data-u="arrowright" class="jssora22r" style="top:0;right:12px;width:40px;height:58px;" data-autocenter="2"></span>
+    </div>
+    <!-- #endregion Jssor Slider End -->
+    <!-- ***** End Slider ***** -->
+    <!--==== BOXES===-->
+    <div class="container">
+        <div class="row" id="main-boxes">
+            <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 resize  green top-side boxes ">
+                <a href="#">
+                    <img src="images/first-box-logo.png" style="float: right">
+                    <h3>Psixolog xizmati</h3>
+                    <p>Metodik ma'lumotlar, ishlanmalar va mashqalar</p>
+                </a>
+
+
+
+            </div>
+
+
+            <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12  orange top-side boxes  ">
+
+                <a href="#">
+                    <img src="images/second-box-logo.png" style="float: right">
+                    <h3>Ijodkor jamoa</h3>
+                    <p>Maktab hayoti va darsdan tashqari mehnat </p>
+                </a>
+            </div>
+            <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12  light-red top-side boxes ">
+                <a href="#">
+                    <img src="images/third-box-logo.png" style="float: right">
+                    <h3>Foto hayot</h3>
+                    <p>Fotolavhalarda aks etgan ijodga to'la hayot!</p>
+                </a>
+
+            </div>
+            <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 green bottom-side boxes ">
+                <a href="#">
+                    <img src="images/fourth-box-logo.png" style="float: right">
+                    <h3>Bilimlar bellashuvi</h3>
+                    <p>Iqtidomi aniqlash, qobilyatni  ruyobga  chiqarish burchimizdir!</p>
+                </a>
+            </div>
+            <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12  orange bottom-side  boxes">
+                <a href="#">
+                    <img src="images/fifth-box-logo.png" style="float: right">
+                    <h3>Namunali safdoshlar</h3>
+                    <p>Yilning eng yaxshi o`qituvchilari  - faoliyati va natijalari.</p>
+                </a>
+            </div>
+            <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12  light-red bottom-side boxes ">
+                <a href="#">
+                    <img src="images/sixth-box-logo.png" style="float: right">
+                    <h3>Kadrlar  salohiyati</h3>
+                    <p>Mahorak va malaka bilim tarozisida o'lchanur </p>
+                </a>
+            </div>
+        </div>
+    </div> <!--=====///BOXES///====-->
+
+    <!--***CONTENT*** -->
+    <div class="container" style="text-align: left">
+        <div class="row">
+            <aside>
+                <div id="content-left">
+                    <div class="col-xs-10 col-md-4 col-lg-4 main-menu-left">
+                        <div class="col-sm-12 col-md-12 column">
+                            <img src="images/icon-laptop.png" class="laptop pull-left">
+                            <h3>
+                                <a href="#">Yangilik va e'lonlar</a>
+                            </h3>
+                            <p>Maktab hayotidagi son'ggi yangilik va e'lonlar, aktual ma'ulomotlar bo'limi</p>
+                            <hr class="double">
+                        </div>
+                        <div class="col-sm-12 col-md-12 column">
+                            <img src="images/icon-group.png" class="laptop pull-left">
+                            <h3>
+                                <a href="#">O`qituvchilarga</a>
+                            </h3>
+                            <p>O`quvchi tarbiyasi va bilim olishiga doir kompleks ma`lumotlar bazasi.</p>
+                            <hr class="double">
+                        </div>
+                        <div class="col-sm-12 col-md-12 column">
+                            <img src="images/icon-group.png" class="laptop pull-left">
+                            <h3>
+                                <a href="#">O`quvchilarga</a>
+                            </h3>
+                            <p>Chuqur bilim olishda lozim materiallar va ishlanmalar jamlanmasi.</p>
+                            <hr class="double">
+                        </div>
+                        <div class="col-sm-12 col-md-12 column">
+                            <img src="images/icon-film.png" class="laptop pull-left">
+                            <h3>
+                                <a href="#">Video va TV</a>
+                            </h3>
+                            <p>Videolavhalar kollektsiyasi: Maktab tadbirlari, TV Biz haqimizda TV.</p>
+                            <hr class="double">
+                        </div>
+                        <div class="col-sm-12 col-md-12 column">
+                            <img src="images/icon-book.png" class="laptop pull-left">
+                            <h3>
+                                <a href="#">Elektron kutubxona</a>
+                            </h3>
+                            <p>Milliy ta`lim kitoblari bazasi, o`quv materiallari, ishlanmalar, prezentatsiyalar hujjatlar arxivi.</p>
+                            <hr class="double">
+                        </div>
+                        <div class="col-sm-12 col-md-12 column">
+                            <img src="images/icon-group.png" class="laptop pull-left">
+                            <h3>
+                                <a href="#">Onlayn darslar</a>
+                            </h3>
+                            <p>Intensiv ta`lim video kurslari va o`quv videomateriallari.</p>
+                            <hr class="double">
+                        </div>
+                    </div>
+                </div>
+                <div id="content-bottom">
+                    <h3>MILLLIY HAVOLALAR</h3>
+                    <ul class="hyper-links">
+                        <li><a href="http://www.gov.uz" target="_blank">O`zbekiston R. Hukumat portali</a></li>
+                        <li><a href="http://www.press.service.uz" target="_blank">O`zbekiston R. Prezident matbuot xizmati</a></li>
+                        <li><a href="http://www.parliament.gov.uz" target="_blank">O`zbekiston R. Oliy Majlisi</a></li>
+                        <li><a href="http://www.uz.edu.uz" target="_blank">Xalq ta`limi Vazirligi</a></li>
+                        <li><a href="http://www.edu.uz" target="_blank">Oliy va O`rta Maxsus Ta`lim Vazirligi</a></li>
+                        <li><a href="http://www.my.gov.uz" target="_blank">Interaktiv Davlat xizmatlari portali</a></li>
+                        <li><a href="http://www.dtm.uz" target="_blank">O`zbekiston R. Davlat Test Markazi</a></li>
+                        <li><a href="http://www.tashkent.uz" target="_blank">Toshkent shahar portali</a></li>
+                        <li><a href="http://www.ziyonet.uz" target="_blank">O`zbekiston Ta`lim portali</a></li>
+                        <li><a href="http://www.xt.uzedu.uz" target="_blank">XTVning Interaktiv xizmatlar portali</a></li>
+                        <li><a href="http://www.uz" target="_blank">O`zbekiston Milliy veb-katalogi</a></li>
+                        <li><a href="http://www.lex.uz/ru/main.uz" target="_blank">O`zbekiston R. Qonun hujjatlari bazasi</a></li>
+                        <li><a href="http://www.kitob.uz" target="_blank">Bolalar kutubxonasi</a></li>
+                        <li><a href="http://www.geografiya.uz" target="_blank">O`zbekiston geografiya portali</a></li>
+                    </ul>
+
+                </div>
+            </aside>
+
+            <section class="pull-right">
+                <div class="col-right">
+                    <h2>
+                        Xush kelibsiz azizlar!
+                    </h2>
+                    <p>Toshkent shahar 9-davlat ixtisoslashtirilgan umumta`lim maktabi uzluksiz ta'lim tizimining asosiy bo'g'ini bo'lib, u o'quvchi yoshlarga davlat ta'lim standartlari asosida fan asoslaridan umumiy o'rta ma'lumot beruvchi kunduzgi majburiy ta'limni ayrim fanlarni chuqur o'qitish va ixtisoslashtirilgan ta'lim bilan qo'shib olib boruvchi ta'lim muassasasidir.</p>
+                    <hr>
+                    <div class="strip-lessons">
+                        <div class="row">
+                            <div class="image-sourced pull-left">
+                                <img src="images/edu-logo-1.png">
+                            </div>
+                            <div class="about-news pull-right">
+                                <h4>
+                                    <a href="#">Yilning eng yaxshi fan o'qituvchisi 2017</a>
+                                </h4>
+                                <p>"Yilning eng yaxshi fan o`qituvchisi" ko`rik-tanlovi umumta'lim <br> muassasalarining eng ilg'or, izlanuvchan, tashabbuskor o'qituvchilarini <br> aniqlash, ularning qobiliyati va mahoratini yuzaga</p>
+                                <ul class="date-lessons" style="position: relative;left: -15px;">
+                                    <li><i class="fa fa-clock-o"></i>Sana: 8-04-2017, 17:58</li>
+                                    <li><i class="fa fa-eye"></i>Tashriflar 66</li>
+                                    <li><i class="fa fa-arrow-circle-right"></i><a href="#" style="font-family: monospace;">Batafsil</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="strip-lessons">
+                        <div class="row">
+                            <div class="image-sourced pull-left">
+                                <img src="images/edu-logo-1.png">
+                            </div>
+                            <div class="about-news pull-right">
+                                <h4>
+                                    <a href="#">Yilning eng yaxshi fan o'qituvchisi 2017</a>
+                                </h4>
+                                <p>"Yilning eng yaxshi fan o`qituvchisi" ko`rik-tanlovi umumta'lim <br> muassasalarining eng ilg'or, izlanuvchan, tashabbuskor o'qituvchilarini <br> aniqlash, ularning qobiliyati va mahoratini yuzaga</p>
+                                <ul class="date-lessons" style="position: relative;left: -15px;">
+                                    <li><i class="fa fa-clock-o"></i>Sana: 8-04-2017, 17:58</li>
+                                    <li><i class="fa fa-eye"></i>Tashriflar 66</li>
+                                    <li><i class="fa fa-arrow-circle-right"></i><a href="#" style="font-family: monospace;">Batafsil</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="strip-lessons">
+                        <div class="row">
+                            <div class="image-sourced pull-left">
+                                <img src="images/edu-logo-1.png">
+                            </div>
+                            <div class="about-news pull-right">
+                                <h4>
+                                    <a href="#">Yilning eng yaxshi fan o'qituvchisi 2017</a>
+                                </h4>
+                                <p>"Yilning eng yaxshi fan o`qituvchisi" ko`rik-tanlovi umumta'lim <br> muassasalarining eng ilg'or, izlanuvchan, tashabbuskor o'qituvchilarini <br> aniqlash, ularning qobiliyati va mahoratini yuzaga</p>
+                                <ul class="date-lessons" style="position: relative;left: -15px;">
+                                    <li><i class="fa fa-clock-o"></i>Sana: 8-04-2017, 17:58</li>
+                                    <li><i class="fa fa-eye"></i>Tashriflar 66</li>
+                                    <li><i class="fa fa-arrow-circle-right"></i><a href="#" style="font-family: monospace;">Batafsil</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="strip-lessons">
+                        <div class="row">
+                            <div class="image-sourced pull-left">
+                                <img src="images/edu-logo-1.png">
+                            </div>
+                            <div class="about-news pull-right">
+                                <h4>
+                                    <a href="#">Yilning eng yaxshi fan o'qituvchisi 2017</a>
+                                </h4>
+                                <p>"Yilning eng yaxshi fan o`qituvchisi" ko`rik-tanlovi umumta'lim <br> muassasalarining eng ilg'or, izlanuvchan, tashabbuskor o'qituvchilarini <br> aniqlash, ularning qobiliyati va mahoratini yuzaga</p>
+                                <ul class="date-lessons" style="position: relative;left: -15px;">
+                                    <li><i class="fa fa-clock-o"></i>Sana: 8-04-2017, 17:58</li>
+                                    <li><i class="fa fa-eye"></i>Tashriflar 66</li>
+                                    <li><i class="fa fa-arrow-circle-right"></i><a href="#" style="font-family: monospace;">Batafsil</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="strip-lessons">
+                        <div class="row">
+                            <div class="image-sourced pull-left">
+                                <img src="images/edu-logo-1.png">
+                            </div>
+                            <div class="about-news pull-right">
+                                <h4>
+                                    <a href="#">Yilning eng yaxshi fan o'qituvchisi 2017</a>
+                                </h4>
+                                <p>"Yilning eng yaxshi fan o`qituvchisi" ko`rik-tanlovi umumta'lim <br> muassasalarining eng ilg'or, izlanuvchan, tashabbuskor o'qituvchilarini <br> aniqlash, ularning qobiliyati va mahoratini yuzaga</p>
+                                <ul class="date-lessons" style="position: relative;left: -15px;">
+                                    <li><i class="fa fa-clock-o"></i>Sana: 8-04-2017, 17:58</li>
+                                    <li><i class="fa fa-eye"></i>Tashriflar 66</li>
+                                    <li><i class="fa fa-arrow-circle-right"></i><a href="#" style="font-family: monospace;">Batafsil</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="strip-lessons">
+                        <div class="row">
+                            <div class="image-sourced pull-left">
+                                <img src="images/edu-logo-1.png">
+                            </div>
+                            <div class="about-news pull-right">
+                                <h4>
+                                    <a href="#">Yilning eng yaxshi fan o'qituvchisi 2017</a>
+                                </h4>
+                                <p>"Yilning eng yaxshi fan o`qituvchisi" ko`rik-tanlovi umumta'lim <br> muassasalarining eng ilg'or, izlanuvchan, tashabbuskor o'qituvchilarini <br> aniqlash, ularning qobiliyati va mahoratini yuzaga</p>
+                                <ul class="date-lessons" style="position: relative;left: -15px;">
+                                    <li><i class="fa fa-clock-o"></i>Sana: 8-04-2017, 17:58</li>
+                                    <li><i class="fa fa-eye"></i>Tashriflar 66</li>
+                                    <li><i class="fa fa-arrow-circle-right"></i><a href="#" style="font-family: monospace;">Batafsil</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+    </div>  <!-- ////*****CONTENT****/// -->
+    <!--
+=========== FOOTER =============
+-->
+    <div class="footer">
+
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-2 col-sm-3 col-xs-3">
+                    <div style="float: left;">
+                        <img src="images/logo-footer.png" alt="" class="logo-footer" style="position: relative;left: 10px;">
+                        <p style="display: table;margin: 10px 0 0 0; color: #C8C8C8; text-align-last: center"> Toshkent shahar <br> 9-umumiy o'rta <br> ta'lim maktabi</p>
+                    </div>
+
+                </div>
+                <div class="col-lg-4 col-md-3 col-sm-3 col-xs-5">
+                    <h4>MANZIL VA ALOQA</h4>
+                    <ul class="address">
+                        <li><i class="fa fa-home"></i>Toshkent shahar, Amir Temur ko'chasi</li>
+                        <li><i class="fa fa-phone"></i>Telefon: (+99879) 224 01 21</li>
+                        <li><i class="fa fa-print"></i>Faks: (0436) 224 01 21</li>
+                        <li><i class="fa fa-envelope"></i>Email: info@9-maktab.uz</li>
+                        <li><i class="fa fa-user"></i>Saytni yuritish bo`yicha mas`ul: Alimuhamedova U</li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3" style="font-family: monospace" >
+                    <h4 style="margin-left: -18px">TEZKOR MENYU</h4>
+                    <ul class="address" style="list-style-type: disc">
+                        <li><a href="#">Veb-sayt umumlashgan statistikasi</a></li>
+                        <li><a href="#">Veb-sayt xaritasi</a></li>
+                        <li><a href="#">RSS</a></li>
+                        <li><a href="#">Biz bilan bog`lanish</a></li>
+                        <li><a href="#">Veb-saytning mobil ko`rinishi</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>  <!-- ///FOOTER -->
+
+</div>
+<script>
+    jssor_1_slider_init();
+
+</script>
+</body>
+</html>
